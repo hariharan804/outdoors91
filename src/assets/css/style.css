@@ -1,0 +1,20 @@
+html,
+body {
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow-x: hidden !important;
+    background-color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.bg-gray {
+    background-color: #f3f3f3;
+}
+
+button {
+    box-shadow: none !important;
+}

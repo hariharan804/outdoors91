@@ -1,0 +1,170 @@
+.header-one {
+    padding: 0 20px;
+}
+
+.header-one .nav-link {
+    margin-right: 10px;
+    vertical-align: -2px;
+    font-size: 15px;
+    color: #000;
+    letter-spacing: 0.01rem;
+}
+
+.header-one .nav-link:hover {
+    color: #5ad235;
+}
+
+.header-two {
+    border-top: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+    padding: 12px 18px;
+}
+
+.header-two .logo-img {
+    width: 235px;
+    height: 15px;
+}
+
+.header-two .nav-link {
+    padding: 5px;
+    color: #221629 !important;
+    font-size: 17px;
+    letter-spacing: 0.01rem;
+    line-height: 18px;
+    border-bottom: 2px solid transparent;
+    margin-right: 5px;
+    transition: all .3s;
+}
+
+.header-two .nav-link:hover {
+    color: #000;
+    border-bottom: 2px solid #d0d0d0;
+}
+
+.breadcrumbs {
+    padding: 8px 30px;
+}
+
+.breadcrumbs p {
+    margin: 0;
+    color: #959595;
+    font-size: 10px;
+    letter-spacing: 0.02rem;
+    cursor: pointer;
+}
+
+.breadcrumbs p span:hover {
+    color: #5ad235;
+}
+
+.banner {
+    width: 100%;
+    height: 250px;
+    background: #e3e3e3;
+    background: url('https://d60i6mpkbdpwe.cloudfront.net/assets/ninetyone/images/listing-bnr/men-lg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner .content {
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    background: rgba(0, 0, 0, .5);
+}
+
+.banner .content .title {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 24px;
+    margin-bottom: 14px;
+    letter-spacing: 0.04rem;
+    color: #fff;
+}
+
+.banner .content .des {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 14px;
+    letter-spacing: 0.04rem;
+    color: #fff;
+}
+
+.banner .content .sort-btn {
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 4px 4px 14px 0 rgba(96, 96, 96, .1)!important;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.04rem;
+    padding: 7px 15px 5px 15px;
+    box-shadow: none !important;
+}
+
+.banner .content .filter-btn {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.04rem;
+    color: #fff;
+    box-shadow: none !important;
+}
+
+.banner .content .count-btn {
+    font-size: 18px;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    background: #ffffffb8;
+    padding: 2px 10px 1px 10px !important;
+    border-radius: 4px;
+    margin-right: 12px;
+    color: #221629;
+    font-weight: 600;
+    box-shadow: none !important;
+    margin-right: 15px !important;
+    margin-bottom: 10px;
+}
+
+.count-btn:hover {
+    color: #5ad235 !important;
+}
+
+input[type="search"] {
+    height: 30px;
+    border-color: #dfdfdf;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    padding: 2px 12px 2px 42px;
+    background: #ffffff;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    color: #555;
+    box-shadow: none !important;
+    margin: 4px 0;
+}
+
+input[type="search"]:focus,
+input[type="search"]:hover {
+    border-color: #5ad235;
+    box-shadow: 0 3px 4px rgb(0 0 0 / 8%) inset, 0 0 8px rgb(90 210 53 / 20%);
+}
+
+.header-one .position {
+    position: absolute;
+    top: 2px;
+    left: 12px;
+}
+
+@media (max-width:992px) {
+    .banner {
+        height: 300px;
+    }
+}
+
+@media (max-width:644px) {
+    .banner {
+        height: 450px;
+    }
+}
